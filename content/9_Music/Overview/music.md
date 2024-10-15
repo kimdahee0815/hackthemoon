@@ -1,6 +1,7 @@
 ---
 share: true
 dataview: true
+links.mdlinks: true
 links.convert: true
 links.internals: true
 category: 9_Music/Overview
