@@ -8,12 +8,7 @@ tags:
   - overview
 ---
 # english-podcast Overview
-```dataview
-Table 
-("![|100](" + image + ")") as Img,
-date
-From "content"
-where contains(tags,"english") and contains(tags, "podcast") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File | Img | date |
+| ---- | --- | ---- |
+
 
