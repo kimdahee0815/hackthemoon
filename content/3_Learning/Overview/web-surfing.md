@@ -7,11 +7,6 @@ tags:
   - overview
 ---
 # web-surfing Overview
-```dataview
-Table 
-img as Img,
-date
-From "content"
-where contains(tags,"web-surfing") and !contains(tags, "stuff") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File | Img | date |
+| ---- | --- | ---- |
+
