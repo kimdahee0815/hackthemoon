@@ -3,14 +3,17 @@ share: true
 dataview: true
 links.internals: true
 links.nonShared: true
+links.mdlinks: true
 category: 9_Music/Overview
 tags:
   - movie
   - overview
 ---
+
 # music Overview
+
 ```dataview
-Table 
+Table
 artists as Artists,
 ("![|100](" + cover-url + ")") as Cover,
 album as Album,
