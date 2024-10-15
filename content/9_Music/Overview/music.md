@@ -1,9 +1,9 @@
 ---
 share: true
 category: 9_Music/Overview
-links.internal: true
-links.unshared: true
-links.wiki: true
+links.internals: true
+links.nonShared: true
+links.convert: true
 tags:
   - movie
   - overview
