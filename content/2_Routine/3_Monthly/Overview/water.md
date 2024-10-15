@@ -8,36 +8,5 @@ tags:
   - overview
 ---
 # Water
-```dataviewjs
-let pages = dv.pages(`"content/2_Routine/1_Daily/Daily-Routine"`)
-const year = moment().format("YYYY")
-const month = moment().format("M")
-const date_pattern = 'YYYY-MM-DD'
-const habits = {
-	'water': '🫗 {water} ml'
-}
-
-let data = {}
-let link = {}
-for (let page of pages) {
-	if(dv.date(page.file.name).c.month == month){
-		let date = page.file.name;
-		data[date] = data[date] || '';
-		link[date] = link[date] || '';
-
-		let water = page.water;
-	
-		for (let habit in habits) {
-			data[date] += habits[habit].replace('{water}', water) + '\n';
-			link[date] += 
-			page.waterNote.path;
-		}
-	}
-}
-
-let calendarData = []
-for (let date in data) {
-	calendarData.push({date: date, content: data[date], link: link[date]})
-}
-renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
-```
+<table class="habitt" style="width: 100%;"><thead><tr><th class="habitt-head" colspan="7">2024-10</th></tr><tr><th class="habitt-th habitt-th-0">MON</th><th class="habitt-th habitt-th-1">TUE</th><th class="habitt-th habitt-th-2">WED</th><th class="habitt-th habitt-th-3">THU</th><th class="habitt-th habitt-th-4">FRI</th><th class="habitt-th habitt-th-5">SAT</th><th class="habitt-th habitt-th-6">SUN</th></tr></thead><tbody><tr><td class="habitt-td habitt-td--disabled "><div class="habitt-c"><div class="habitt-date"></div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--1 "><div class="habitt-c"><div class="habitt-date">1</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--2 "><div class="habitt-c"><div class="habitt-date">2</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--3 "><div class="habitt-c"><div class="habitt-date">3</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--4 "><div class="habitt-c"><div class="habitt-date">4</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--5 "><div class="habitt-c"><div class="habitt-date">5</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--6 "><div class="habitt-c"><div class="habitt-date">6</div><div class="habitt-dots"></div></div></td></tr><tr><td class="habitt-td habitt-td--7 "><div class="habitt-c"><div class="habitt-date">7</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--8 "><div class="habitt-c"><div class="habitt-date">8</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--9 "><div class="habitt-c"><div class="habitt-date">9</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--10 "><div class="habitt-c"><div class="habitt-date">10</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--11 "><div class="habitt-c"><div class="habitt-date">11</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--12 "><div class="habitt-c"><div class="habitt-date">12</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--13 "><div class="habitt-c"><div class="habitt-date">13</div><div class="habitt-dots"></div></div></td></tr><tr><td class="habitt-td habitt-td--14 "><div class="habitt-c"><div class="habitt-date">14</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--15 habitt-td--checked"><div class="habitt-c"><div class="habitt-date"><a class="internal-link" data-href="Calendar/Daily/Drinks/2024-10-15" target="_blank" rel="noopener" href="Calendar/Daily/Drinks/2024-10-15">15</a></div><div class="habitt-dots"><div class="habit-content">🫗 0 ml
+</div></div></div></td><td class="habitt-td habitt-td--16 "><div class="habitt-c"><div class="habitt-date">16</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--17 "><div class="habitt-c"><div class="habitt-date">17</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--18 "><div class="habitt-c"><div class="habitt-date">18</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--19 "><div class="habitt-c"><div class="habitt-date">19</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--20 "><div class="habitt-c"><div class="habitt-date">20</div><div class="habitt-dots"></div></div></td></tr><tr><td class="habitt-td habitt-td--21 "><div class="habitt-c"><div class="habitt-date">21</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--22 "><div class="habitt-c"><div class="habitt-date">22</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--23 "><div class="habitt-c"><div class="habitt-date">23</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--24 "><div class="habitt-c"><div class="habitt-date">24</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--25 "><div class="habitt-c"><div class="habitt-date">25</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--26 "><div class="habitt-c"><div class="habitt-date">26</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--27 "><div class="habitt-c"><div class="habitt-date">27</div><div class="habitt-dots"></div></div></td></tr><tr><td class="habitt-td habitt-td--28 "><div class="habitt-c"><div class="habitt-date">28</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--29 "><div class="habitt-c"><div class="habitt-date">29</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--30 "><div class="habitt-c"><div class="habitt-date">30</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--31 "><div class="habitt-c"><div class="habitt-date">31</div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--disabled "><div class="habitt-c"><div class="habitt-date"></div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--disabled "><div class="habitt-c"><div class="habitt-date"></div><div class="habitt-dots"></div></div></td><td class="habitt-td habitt-td--disabled "><div class="habitt-c"><div class="habitt-date"></div><div class="habitt-dots"></div></div></td></tr></tbody></table>
