@@ -1,7 +1,6 @@
 ---
 share: true
 dataview: true
-links.convert: true
 category: 9_Music/Overview
 tags:
   - movie
