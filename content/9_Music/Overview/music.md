@@ -1,7 +1,7 @@
 ---
 share: true
 dataview: true
-links.convert: true
+links.convert: false
 category: 9_Music/Overview
 tags:
   - movie
@@ -12,9 +12,9 @@ tags:
 
 | File                                                  | Artists       | Cover                                                                      | Album                                          | Rating⭐  | date          |
 | ----------------------------------------------------- | ------------- | -------------------------------------------------------------------------- | ---------------------------------------------- | -------- | ------------- |
-| [Steal The Show](content/9_Music/Steal%20The%20Show.md.md) | Lauv          | ![\|100](https://i.scdn.co/image/ab67616d00001e025a4a12b30ffc095ccb46d2a0) | Elemental (Original Motion Picture Soundtrack) | ⭐⭐⭐⭐⭐⭐⭐⭐ | 2024. 10. 15. |
-| [Slow Fade](content/9_Music/Slow%20Fade.md.md)           | Ruth B.       | ![\|100](https://i.scdn.co/image/ab67616d00001e02a89a5c72dd5966d26f1e49a6) | Maybe I'll Find You Again                      | ⭐⭐⭐⭐⭐⭐⭐  | 2024. 10. 14. |
-| [positions](content/9_Music/positions.md.md)           | Ariana Grande | ![\|100](https://i.scdn.co/image/ab67616d00001e026484dfce3cc12e68d8aa2e55) | Positions                                      | ⭐⭐⭐⭐⭐    | 2024. 10. 14. |
+| Steal The Show | Lauv          | ![\|100](https://i.scdn.co/image/ab67616d00001e025a4a12b30ffc095ccb46d2a0) | Elemental (Original Motion Picture Soundtrack) | ⭐⭐⭐⭐⭐⭐⭐⭐ | 2024. 10. 15. |
+| Slow Fade           | Ruth B.       | ![\|100](https://i.scdn.co/image/ab67616d00001e02a89a5c72dd5966d26f1e49a6) | Maybe I'll Find You Again                      | ⭐⭐⭐⭐⭐⭐⭐  | 2024. 10. 14. |
+| positions           | Ariana Grande | ![\|100](https://i.scdn.co/image/ab67616d00001e026484dfce3cc12e68d8aa2e55) | Positions                                      | ⭐⭐⭐⭐⭐    | 2024. 10. 14. |
 
 
-[Steal The Show](Steal%20The%20Show.md)
+Steal The Show
