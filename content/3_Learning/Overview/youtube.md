@@ -7,13 +7,8 @@ tags:
   - overview
 ---
 # youtube Overview
-```dataview
-Table 
-("![|100](" + img + ")") as Img,
-date
-From "content"
-where contains(tags,"youtube") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File | Img | date |
+| ---- | --- | ---- |
+
 
 
