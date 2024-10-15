@@ -1,9 +1,6 @@
 ---
 share: true
 dataview: true
-links.internals: true
-links.nonShared: true
-links.mdlinks: true
 category: 9_Music/Overview
 tags:
   - movie
@@ -23,3 +20,5 @@ From "content"
 where contains(tags,"music") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 sort date desc
 ```
+
+[[Steal The Show]]
