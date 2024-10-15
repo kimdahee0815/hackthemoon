@@ -1,9 +1,6 @@
 ---
 share: true
 category: 9_Music
-links.convert: true
-links.internals: true
-links.nonshared: true
 created-date: 2024-10-14 11:51:19 pm
 date: 2024-10-14
 type: entertainment
