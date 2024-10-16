@@ -22,4 +22,4 @@ rating: ⭐⭐⭐⭐⭐⭐⭐⭐
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0SccFtYdj75y6lL2OW10Cf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-![73a02eb2f72d1a665423b6433c8d618a_MD5](../../10_Utilities/Images/73a02eb2f72d1a665423b6433c8d618a_MD5.jpg)
+![73a02eb2f72d1a665423b6433c8d618a_MD5.jpg](private/Utilities/Images/73a02eb2f72d1a665423b6433c8d618a_MD5.jpg)
