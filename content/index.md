@@ -10,7 +10,7 @@ sticker: emoji//1f60d
 	```dataview
 	LIST  
 	FROM "content"
-	WHERE contains(tags, "project") and contains(tags, "work") and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "project") and contains(tags, "work")
 	SORT date DESC 
 	```
 
@@ -18,7 +18,7 @@ sticker: emoji//1f60d
 	```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "project") and contains(tags, "life") and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "project") and contains(tags, "life")
 	SORT date DESC 
 	```
 
@@ -27,7 +27,7 @@ sticker: emoji//1f60d
 	```dataview
 	LIST  
 	FROM "content"
-	WHERE contains(tags, "developing") and file.name != "developing" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "developing") and file.name != "developing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -36,7 +36,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "book") and file.name != "book" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "book") and file.name != "book" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -45,7 +45,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "english") and file.name != "english-podcast" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "english") and file.name != "english-podcast" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -55,7 +55,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "class") and !contains(tags, "developing") and file.name != "class" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "class") and !contains(tags, "developing") and file.name != "class" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -64,7 +64,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "work") and !contains(tags, "workout") and file.name != "work" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "work") and !contains(tags, "workout") and file.name != "work" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -73,7 +73,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "meeting") and file.name != "meeting" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "meeting") and file.name != "meeting" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -82,7 +82,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "author") and file.name != "author" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "author") and file.name != "author" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -91,7 +91,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "stuff") and file.name != "stuff" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "stuff") and file.name != "stuff" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
@@ -100,7 +100,7 @@ sticker: emoji//1f60d
     ```dataview
 	LIST 
 	FROM "content"
-	WHERE contains(tags, "web-surfing") and !contains(tags, "stuff") and file.name != "web-surfing" and !contains(tags, "overview") and !contains(tags, "report")
+	WHERE contains(tags, "web-surfing") and !contains(tags, "stuff") and file.name != "web-surfing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
 	SORT date DESC 
 	LIMIT 10
 	```
