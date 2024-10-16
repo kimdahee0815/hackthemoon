@@ -7,15 +7,6 @@ tags:
   - overview
 ---
 # drama Overview
-```dataview
-Table 
-("![|100](" + poster + ")") as Poster,
-rating as Rating⭐,
-length as EpisodeLength,
-genre as Genre,
-scoreImdb as Imdb⭐,
-date
-From "content"
-where contains(tags,"drama") and !contains(tags, "shadowing") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File | Poster | Rating⭐ | EpisodeLength | Genre | Imdb⭐ | date |
+| ---- | ------ | ------- | ------------- | ----- | ----- | ---- |
+
