@@ -10,16 +10,11 @@ tags:
 
 # music Overview
 
-```dataview
-Table
-artists as Artists,
-("![|100](" + cover-url + ")") as Cover,
-album as Album,
-rating as Rating⭐,
-date
-From "content"
-where contains(tags,"music") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File                                          | Artists       | Cover                                                                      | Album                                          | Rating⭐  | date          |
+| --------------------------------------------- | ------------- | -------------------------------------------------------------------------- | ---------------------------------------------- | -------- | ------------- |
+| [[../../Steal The Show\|Steal The Show]] | Lauv          | ![\|100](https://i.scdn.co/image/ab67616d00001e025a4a12b30ffc095ccb46d2a0) | Elemental (Original Motion Picture Soundtrack) | ⭐⭐⭐⭐⭐⭐⭐⭐ | 2024. 10. 15. |
+| [[../../positions\|positions]]           | Ariana Grande | ![\|100](https://i.scdn.co/image/ab67616d00001e026484dfce3cc12e68d8aa2e55) | Positions                                      | ⭐⭐⭐⭐⭐    | 2024. 10. 14. |
+| [[../../Slow Fade\|Slow Fade]]           | Ruth B.       | ![\|100](https://i.scdn.co/image/ab67616d00001e02a89a5c72dd5966d26f1e49a6) | Maybe I'll Find You Again                      | ⭐⭐⭐⭐⭐⭐⭐  | 2024. 10. 14. |
 
-[[content/Steal The Show]]
+
+[[/Steal The Show|/Steal The Show]]
