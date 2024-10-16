@@ -1,6 +1,7 @@
 ---
 share: true
 dataview: true
+rootFolder: 9_Music
 category: 9_Music/Overview
 tags:
   - music
