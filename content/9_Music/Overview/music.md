@@ -1,7 +1,6 @@
 ---
 share: true
 dataview: true
-rootFolder: 9_Music
 category: 9_Music/Overview
 tags:
   - music
@@ -22,4 +21,4 @@ where contains(tags,"music") and !contains(tags, "overview") and !contains(tags,
 sort date desc
 ```
 
-[[Steal The Show]]
+[[content/Steal The Show]]
