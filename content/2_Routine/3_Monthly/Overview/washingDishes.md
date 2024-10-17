@@ -8,70 +8,115 @@ tags:
   - overview
 ---
 # Morning Washing Dishes
-```tracker
-searchType: text
-searchTarget: 'morningWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Morning Washing Dishes
-fixedScale: 1.1
-month:
-	mode: annotation
-	annotation: 🧽
-	startWeekOn: 'Mon'
-	color: "#ffff33"
-```
+```dataviewjs
+let pages = dv.pages(`"content/2_Routine/1_Daily/Daily-Routine"`)
+const year = moment().format("YYYY")
+const month = moment().format("M")
+const date_pattern = 'YYYY-MM-DD'
+const habits = {
+	'morningWashingDishes': '🧽'
+}
 
-```tracker
-searchType: text
-searchTarget: 'morningWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Morning Washing Dishes
-summary:
-	template: "Longest Streak: {{maxStreak()}} day(s)\nLongest Breaks: {{maxBreaks()}} day(s)\nLast streak: {{currentStreak()}} day(s)"
+let data = {}
+let link = {}
+for (let page of pages) {
+	if(dv.date(page.file.name).c.month == month){
+		let date = page.file.name;
+		data[date] = data[date] || '';
+		link[date] = link[date] || '';
+
+		let morningWashingDishes = page.morningWashingDishes;
+	
+		for (let habit in habits) {
+			if(morningWashingDishes){
+			data[date] += habits[habit].replace('{morningWashingDishes}', morningWashingDishes) + '\n';
+			}
+			
+			link[date] += 
+			page.morningWashingDishesNote.path;
+		}
+	}
+}
+
+let calendarData = []
+for (let date in data) {
+	calendarData.push({date: date, content: data[date], link: link[date]})
+}
+renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
 ```
 
 # Afternoon Washing Dishes
-```tracker
-searchType: text
-searchTarget: 'afternoonWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Afternoon Washing Dishes
-fixedScale: 1.1
-month:
-	mode: annotation
-	annotation: 🧽
-	startWeekOn: 'Mon'
-	color: "#ffff33"
-```
+```dataviewjs
+let pages = dv.pages(`"content/2_Routine/1_Daily/Daily-Routine"`)
+const year = moment().format("YYYY")
+const month = moment().format("M")
+const date_pattern = 'YYYY-MM-DD'
+const habits = {
+	'afternoonWashingDishes': '🧽'
+}
 
-```tracker
-searchType: text
-searchTarget: 'afternoonWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Afternoon Washing Dishes
-summary:
-	template: "Longest Streak: {{maxStreak()}} day(s)\nLongest Breaks: {{maxBreaks()}} day(s)\nLast streak: {{currentStreak()}} day(s)"
+let data = {}
+let link = {}
+for (let page of pages) {
+	if(dv.date(page.file.name).c.month == month){
+		let date = page.file.name;
+		data[date] = data[date] || '';
+		link[date] = link[date] || '';
+
+		let afternoonWashingDishes = page.afternoonWashingDishes;
+	
+		for (let habit in habits) {
+			if(afternoonWashingDishes){
+			data[date] += habits[habit].replace('{afternoonWashingDishes}', afternoonWashingDishes) + '\n';
+			}
+			
+			link[date] += 
+			page.afternoonWashingDishesNote.path;
+		}
+	}
+}
+
+let calendarData = []
+for (let date in data) {
+	calendarData.push({date: date, content: data[date], link: link[date]})
+}
+renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
 ```
 
 # Evening Washing Dishes
-```tracker
-searchType: text
-searchTarget: 'eveningWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Evening Washing Dishes
-fixedScale: 1.1
-month:
-	mode: annotation
-	annotation: 🧽
-	startWeekOn: 'Mon'
-	color: "#ffff33"
-```
+```dataviewjs
+let pages = dv.pages(`"content/2_Routine/1_Daily/Daily-Routine"`)
+const year = moment().format("YYYY")
+const month = moment().format("M")
+const date_pattern = 'YYYY-MM-DD'
+const habits = {
+	'eveningWashingDishes': '🧽'
+}
 
-```tracker
-searchType: text
-searchTarget: 'eveningWashingDishes: true'
-folder: content/2_Routine/1_Daily/Daily-Routine
-datasetName: Evening Washing Dishes
-summary:
-	template: "Longest Streak: {{maxStreak()}} day(s)\nLongest Breaks: {{maxBreaks()}} day(s)\nLast streak: {{currentStreak()}} day(s)"
+let data = {}
+let link = {}
+for (let page of pages) {
+	if(dv.date(page.file.name).c.month == month){
+		let date = page.file.name;
+		data[date] = data[date] || '';
+		link[date] = link[date] || '';
+
+		let eveningWashingDishes = page.eveningWashingDishes;
+	
+		for (let habit in habits) {
+			if(eveningWashingDishes){
+			data[date] += habits[habit].replace('{eveningWashingDishes}', eveningWashingDishes) + '\n';
+			}
+			
+			link[date] += 
+			page.eveningWashingDishesNote.path;
+		}
+	}
+}
+
+let calendarData = []
+for (let date in data) {
+	calendarData.push({date: date, content: data[date], link: link[date]})
+}
+renderHabitCalendar(this.container, dv, {year, month, data: calendarData, date_pattern}) 
 ```

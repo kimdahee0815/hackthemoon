@@ -1,140 +1,207 @@
 ---
 share: true
-dataview: true
 title: Hack The Moon
 sticker: emoji//1f60d
+cssclasses:
+  - dashboard
 ---
 # Let's hack the moon together! 🌜😊💕
 ## Projects 
-- 💼 Career 
-	```dataview
-	LIST  
-	FROM "content"
-	WHERE contains(tags, "project") and contains(tags, "work")
-	SORT date DESC 
-	```
+💼 Career 
+```dataview
+LIST  
+FROM "content"
+WHERE contains(tags, "project") and contains(tags, "work")
+SORT date DESC 
+```
 
-- 🧭 Life Explorer
-	```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "project") and contains(tags, "life")
-	SORT date DESC 
-	```
+🧭 Life Explorer
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "project") and contains(tags, "life")
+SORT date DESC 
+```
 
 ## Everyday Self-Development
-- 💻 Developing 
-	```dataview
-	LIST  
-	FROM "content"
-	WHERE contains(tags, "developing") and file.name != "developing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+💻 Developing 
+```dataview
+LIST  
+FROM "content"	WHERE contains(tags, "developing") and file.name != "developing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")	SORT date DESC 	LIMIT 10
+```
 
-- 📖 Books
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "book") and file.name != "book" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+📖 Books
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "book") and file.name != "book" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🎧 English
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "english") and file.name != "english-podcast" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+🎧 English
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "english") and file.name != "english-podcast" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
 ## Resource Notes
-- 👩🏻‍🏫 Classes
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "class") and !contains(tags, "developing") and file.name != "class" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+👩🏻‍🏫 Classes
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "class") and !contains(tags, "developing") and file.name != "class" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 💼 Work
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "work") and !contains(tags, "workout") and file.name != "work" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+💼 Work
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "work") and !contains(tags, "workout") and file.name != "work" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🤝 Meeting
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "meeting") and file.name != "meeting" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+🤝 Meeting
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "meeting") and file.name != "meeting" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- ✒️ Author
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "author") and file.name != "author" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+✒️ Author
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "author") and file.name != "author" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🧸 Stuff
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "stuff") and file.name != "stuff" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+🧸 Stuff
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "stuff") and file.name != "stuff" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🖥️ Web-Surfing
-    ```dataview
-	LIST 
-	FROM "content"
-	WHERE contains(tags, "web-surfing") and !contains(tags, "stuff") and file.name != "web-surfing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-	SORT date DESC 
-	LIMIT 10
-	```
+🖥️ Web-Surfing
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "web-surfing") and !contains(tags, "stuff") and file.name != "web-surfing" and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 ## Event Notes
-- 💃 meTime
-`$=dv.list(dv.pages('"content/5_Event"').where(p => {return p.tags.contains("meTime");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+💃 meTime
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "meTime") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🙂 friends
-`$=dv.list(dv.pages('"content/5_Event"').where(p => {return p.tags.contains("friends");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+🙂 friends
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "friends") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 😍 dates
-`$=dv.list(dv.pages('"content/5_Event"').where(p => {return p.tags.contains("dates");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+😍 dates
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "dates") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 👨‍👩‍👧‍👦 Family
-`$=dv.list(dv.pages('"content/5_Event"').where(p => {return p.tags.contains("family");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+👨‍👩‍👧‍👦 Family
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "family") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🌅 Exotic Vacations
-`$=dv.list(dv.pages('"content/5_Event"').where(p => {return p.tags.contains("travel");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+🌅 Exotic Vacations
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "vacation") and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
+
 ## Entertainment
-- 🎞️ Movies/Dramas Watched
-`$=dv.list(dv.pages('"content/8_Movie & Drama"').where(p => p.file.name != "movie" && p.file.name != "drama").sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+🎞️ Movies/Dramas Watched
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "movie") or contains(tags, "drama") and !contains(tags, "report") and file.name != "movie" and file.name != "drama" and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🎥 Movies/Dramas to Watch
-`$=dv.list(dv.pages('"content/8_Movie & Drama"').where(p => p.tags.contains("to watch")).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+🎥 Movies/Dramas to Watch
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "to watch") and !contains(tags, "report") and file.name != "movie" and file.name != "drama" and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- 🎶 Music
-`$=dv.list(dv.pages('"content/9_Music"').where(p => p.file.name != "music").sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+🎶 Music
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "music") and !contains(tags, "report") and file.name != "music" and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
-- ▶️ Youtube
-`$=dv.list(dv.pages('"content/3_Learning"').where(p => {return p.tags.contains("youtube") && p.tags.contains("entertainment");}).sort(f=>f.file.frontmatter.date,"desc").limit(10).file.link)`
+▶️ Youtube
+```dataview
+LIST 
+FROM "content"
+WHERE contains(tags, "youtube") and contains(tags, "entertainment") and !contains(tags, "report") and file.name != "youtube" and !contains(file.folder, "Utilities")
+SORT date DESC 
+LIMIT 10
+```
 
 ## Vault Info
-- 🗄️ Recent file updates `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
-- 🔖 Tagged: need to check! `$=dv.list(dv.pages('#check').sort(f=>f.file.name,"desc").file.link)`
+🗄️ Recent file updates 
+```dataview
+LIST 
+FROM "content"
+SORT file.mtime DESC 
+LIMIT 10
+```
+
+🔖 Draft: need to check! 
+```dataview
+LIST 
+FROM "#draft"
+SORT file.name DESC 
+LIMIT 10
+```
+
 - 〽️ Stats
     - File Count: `$=dv.pages().length`
     - Daily Routines: `$=dv.pages('"content/2_Routine/1_Daily/Daily-Routine"').length`

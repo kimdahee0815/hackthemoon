@@ -1,5 +1,5 @@
 ---
-share: true
+share: false
 dataview: true
 category: 2_Routine/4_Yearly/Overview
 tags:
@@ -33,12 +33,12 @@ const calendarData = {
 }
 
 //DataviewJS loop
-for (let page of dv.pages('"action/daily/routine"').where(p => p.workout)) {
+for (let page of dv.pages('"content/2_Routine/1_Daily/Daily-Routine"').where(p => p.workout)) {
     //dv.span("<br>" + page.file.name) // uncomment for troubleshooting
     calendarData.entries.push({
         date: page.file.name,     // (required) Format YYYY-MM-DD
         intensity: page.workout, // (required) the data you want to track, will map color intensities automatically
-        content: await dv.span(`[](thoughts/action/daily/routine/workout/${page.file.name})`),           // (optional) Add text to the date cell
+        content: await dv.span(`[](content/2_Routine/1_Daily/Workout/${page.file.name})`),           // (optional) Add text to the date cell
         color: "violetGradation",          // (optional) Reference from *calendarData.colors*. If no color is supplied; colors[0] is used
     })
 }
