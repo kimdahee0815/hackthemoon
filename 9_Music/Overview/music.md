@@ -18,4 +18,4 @@ tags:
 | [[../../Slow Fade\|Slow Fade]]           | Ruth B.           | ![\|100](https://i.scdn.co/image/ab67616d00001e02a89a5c72dd5966d26f1e49a6) | Maybe I'll Find You Again                      | ⭐⭐⭐⭐⭐⭐⭐  | 2024. 10. 14. |
 
 
-[[Steal The Show|Steal The Show]]
+[[../../Steal The Show|Steal The Show]]
