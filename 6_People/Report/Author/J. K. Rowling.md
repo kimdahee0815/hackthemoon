@@ -11,7 +11,7 @@ tags:
 aliases: 
 ---
 ## Author Overview
-[[6_People/Overview/author|Author Overview]]
+[[../../Overview/author|Author Overview]]
 
 ## Author References
 #### Today
