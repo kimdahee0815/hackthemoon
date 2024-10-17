@@ -41,7 +41,7 @@ guest:
 
 ### English Podcast References
 ##### English-Podcast Report
-[[3_Learning/Report/English-Podcast/2024-10-17 - IELTS Energy 1425 The 3 Most Confusing Things About IELTS Speaking|2024-10-17 - IELTS Energy 1425 The 3 Most Confusing Things About IELTS Speaking Report]]
+[[./3_Learning/Report/English-Podcast/2024-10-17 - IELTS Energy 1425 The 3 Most Confusing Things About IELTS Speaking|2024-10-17 - IELTS Energy 1425 The 3 Most Confusing Things About IELTS Speaking Report]]
 
 
 
