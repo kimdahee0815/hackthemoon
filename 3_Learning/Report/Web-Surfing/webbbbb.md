@@ -9,7 +9,7 @@ tags:
 aliases: 
 ---
 ## Web-Surfing Overview
-[[3_Learning/Overview/web-surfing|Web-surfing Overview]]
+[[../../Overview/web-surfing|Web-surfing Overview]]
 ## Web-Surfing References
 #### Today
 | File                            | Img | date          |
