@@ -9,7 +9,7 @@ tags:
 aliases: 
 ---
 ## Class Overview
-[[3_Learning/Overview/class|Class Overview]]
+[[../../Overview/class|Class Overview]]
 ## Class References
 #### Today
 | File                                                | date          |
