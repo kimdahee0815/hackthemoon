@@ -8,13 +8,9 @@ tags:
   - overview
 ---
 # author Overview
- ```dataview
-Table 
-img as Img,
-date
-From "content"
-where contains(tags, "author") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+ | File                                        | Img                                                                        | date          |
+| ------------------------------------------- | -------------------------------------------------------------------------- | ------------- |
+| [[../../J. K. Rowling\|J. K. Rowling]] | ![[../../private/Utilities/Images/Pasted image 20241017120513.png\|100]] | 2024. 10. 17. |
+
 
 

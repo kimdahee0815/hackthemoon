@@ -7,13 +7,8 @@ tags:
   - overview
 ---
 # event Overview
-```dataview
-Table 
-img as Img,
-rating as Rating⭐,
-date
-From "content"
-where contains(tags,"event") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File                            | Img | Rating⭐ | date          |
+| ------------------------------- | --- | ------- | ------------- |
+| [[../../my date\|my date]] | \-  | \-      | 2024. 10. 17. |
+
 

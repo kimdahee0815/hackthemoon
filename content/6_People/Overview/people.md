@@ -8,21 +8,13 @@ tags:
 ---
 # people Overview
 ## Social
-```dataview
-Table 
-img as Img,
-date
-From "content"
-where contains(tags, "people") and !contains(tags, "personal") and !contains(tags, "author") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File                    | Img | date          |
+| ----------------------- | --- | ------------- |
+| [[../../섬야\|섬야]]   | \-  | 2024. 10. 17. |
+| [[../../../다현이\|다현이]] | \-  | 2024. 10. 17. |
+
 ## Personal
-```dataview
-Table 
-img as Img,
-date
-From "content"
-where contains(tags, "people") and contains(tags, "personal") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File | Img | date |
+| ---- | --- | ---- |
+
 

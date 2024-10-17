@@ -7,10 +7,8 @@ tags:
   - overview
 ---
 # developing Overview
-```dataview
-Table 
-date
-From "content"
-where contains(tags,"developing") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File                                                            | date          |
+| --------------------------------------------------------------- | ------------- |
+| [[../../DP 알고리즘\|DP 알고리즘]]                                 | 2024. 10. 17. |
+| [[../../AWS Developer Associate\|AWS Developer Associate]] | 2024. 10. 17. |
+

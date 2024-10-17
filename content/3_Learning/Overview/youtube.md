@@ -7,13 +7,9 @@ tags:
   - overview
 ---
 # youtube Overview
-```dataview
-Table 
-("![|100](" + img + ")") as Img,
-date
-From "content"
-where contains(tags,"youtube") and !contains(tags, "overview") and !contains(tags, "report") and !contains(file.folder, "Utilities")
-sort date desc
-```
+| File                                                                                                                | Img                                                    | date          |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------- |
+| [[../../블랙핑크로 데뷔를 안 했다면 ✨글로벌 아이돌✨이 아닌 제니가 살아보고 싶은 다른 인생👀\|블랙핑크로 데뷔를 안 했다면 ✨글로벌 아이돌✨이 아닌 제니가 살아보고 싶은 다른 인생👀]] | ![\|100](https://img.youtube.com/vi/9DOyLIKizhw/0.jpg) | 2024. 10. 17. |
+
 
 
