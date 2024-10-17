@@ -10,7 +10,7 @@ tags:
 aliases: 
 ---
 ## English Podcast Overview
-[[3_Learning/Overview/english-podcast|English Podcast Overview]]
+[[../../Overview/english-podcast|English Podcast Overview]]
 
 ## English Podcast References
 #### Today
