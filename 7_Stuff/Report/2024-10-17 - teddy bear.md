@@ -9,7 +9,7 @@ tags:
 aliases: 
 ---
 ## Stuff Overview
-[[7_Stuff/Overview/stuff|Stuff Overview]]
+[[../Overview/stuff|Stuff Overview]]
 
 ## Stuff References
 #### Today
