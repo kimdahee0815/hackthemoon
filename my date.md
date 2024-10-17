@@ -46,7 +46,7 @@ img:
 
 ### Event References
 ##### Event Report
-[[5_Event/Report/Event/2024-10-17 - my date|2024-10-17 - my date Report]]
+[[./5_Event/Report/Event/2024-10-17 - my date|2024-10-17 - my date Report]]
 
 
 
