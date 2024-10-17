@@ -37,6 +37,6 @@ courseName: 코딩테스트
 
 ### Developing References
 ##### Developing Report
-[[3_Learning/Report/Developing/2024-10-17 - DP 알고리즘|2024-10-17 - DP 알고리즘 Report]]
+[[./3_Learning/Report/Developing/2024-10-17 - DP 알고리즘|2024-10-17 - DP 알고리즘 Report]]
 
 
