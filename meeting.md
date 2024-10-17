@@ -60,6 +60,6 @@ img:
 
 ### Meeting References
 ##### Meeting Report
-[[5_Event/Report/Meeting/2024-10-17 - meeting|2024-10-17 - meeting Report]]
+[[./5_Event/Report/Meeting/2024-10-17 - meeting|2024-10-17 - meeting Report]]
 
 
