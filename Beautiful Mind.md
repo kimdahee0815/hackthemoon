@@ -20,7 +20,7 @@ rating:
 ---
 # [[Beautiful Mind|Beautiful Mind]]
 ## Poster
-![[private/Utilities/Images/a75b1a226d14a66e527d659b0369ecc1_MD5.jpg|private/Utilities/Images/a75b1a226d14a66e527d659b0369ecc1_MD5.jpg]]
+![[./private/Utilities/Images/a75b1a226d14a66e527d659b0369ecc1_MD5.jpg|a75b1a226d14a66e527d659b0369ecc1_MD5]]
 ## Memorable Pics / Vid
 
 
@@ -47,6 +47,6 @@ rating:
 
 ### Movie / Drama References
 ##### Movie / Drama Report
-[[8_Movie & Drama/Report/Beautiful Mind|Beautiful Mind Report]]
+[[./8_Movie & Drama/Report/Beautiful Mind|Beautiful Mind Report]]
 
 
