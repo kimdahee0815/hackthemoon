@@ -33,6 +33,6 @@ aliases:
 
 ### Class References
 ##### Class Report
-[[3_Learning/Report/Class/2024-10-17 - English class abc|2024-10-17 - English class abc Report]]
+[[./3_Learning/Report/Class/2024-10-17 - English class abc|2024-10-17 - English class abc Report]]
 
 
