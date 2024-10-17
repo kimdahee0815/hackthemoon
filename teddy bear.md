@@ -33,5 +33,5 @@ img:
 
 ### Stuff References
 ##### Stuff Report
-[[7_Stuff/Report/2024-10-17 - teddy bear|2024-10-17 - teddy bear Report]]
+[[./7_Stuff/Report/2024-10-17 - teddy bear|2024-10-17 - teddy bear Report]]
 
