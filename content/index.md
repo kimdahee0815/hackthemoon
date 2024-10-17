@@ -66,12 +66,13 @@ sticker: emoji//1f60d
 
 - ▶️ Youtube
 <div><ul class="dataview list-view-ul"></ul></div>
+
 ## Vault Info
 - 🗄️ Recent file updates <Promise>
 - 🔖 Tagged: need to check! <Promise>
 - 〽️ Stats
-    - File Count: 872
-    - Daily Routines: 39
+    - File Count: 875
+    - Daily Routines: 40
     - Daily Drawings: 0
     - Book: 1
     - English: 1
