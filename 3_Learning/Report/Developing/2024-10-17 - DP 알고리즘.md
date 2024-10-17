@@ -10,7 +10,7 @@ aliases:
 ---
 
 ## Developing Overview
-[[3_Learning/Overview/developing|Developing Overview]]
+[[../../Overview/developing|Developing Overview]]
 
 ## Developing References
 #### Today
