@@ -37,6 +37,6 @@ courseName: AWS Associate
 
 ### Developing References
 ##### Developing Report
-[[3_Learning/Report/Developing/2024-10-17 - AWS Developer Associate|2024-10-17 - AWS Developer Associate Report]]
+[[./3_Learning/Report/Developing/2024-10-17 - AWS Developer Associate|2024-10-17 - AWS Developer Associate Report]]
 
 
