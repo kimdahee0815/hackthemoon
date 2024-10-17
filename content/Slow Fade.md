@@ -21,4 +21,4 @@ rating: ⭐⭐⭐⭐⭐⭐⭐
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3wnUCt4sWnK0C0XGQGHKo7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-![[./Utilities/Images/636dec84d73e8b993ea6b24ea797b022_MD5.jpg|200]]
+![[./private/Utilities/Images/636dec84d73e8b993ea6b24ea797b022_MD5.jpg|200]]
