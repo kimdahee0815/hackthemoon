@@ -10,8 +10,8 @@ tags:
 aliases: 
 ---
 ## Movie/Drama Overview
-[[8_Movie & Drama/Overview/movie|Movie Overview]]
-[[8_Movie & Drama/Overview/drama|Drama Overview]]
+[[../Overview/movie|Movie Overview]]
+[[../Overview/drama|Drama Overview]]
 
 ## Movie References
 #### Today
