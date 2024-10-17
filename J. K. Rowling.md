@@ -11,7 +11,7 @@ aliases:
 language: 
 email: 
 phone: 
-img: "![[private/Utilities/Images/Pasted image 20241017120513.png|100]]"
+img: "![[./private/Utilities/Images/Pasted image 20241017120513.png|100]]"
 ---
 # [[J. K. Rowling|J. K. Rowling]]
 ## Personality
@@ -132,5 +132,5 @@ img: "![[private/Utilities/Images/Pasted image 20241017120513.png|100]]"
 
 ### Author References
 ##### Author Report
-[[6_People/Report/Author/J. K. Rowling|J. K. Rowling Report]]
+[[./6_People/Report/Author/J. K. Rowling|J. K. Rowling Report]]
 
